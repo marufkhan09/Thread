@@ -25,6 +25,8 @@
 		CAF5785B2B1541150053AFA6 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5785A2B1541150053AFA6 /* ActivityView.swift */; };
 		CAF5785F2B15412D0053AFA6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5785E2B15412D0053AFA6 /* ProfileView.swift */; };
 		CAF578612B1545A80053AFA6 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578602B1545A80053AFA6 /* ThreadCell.swift */; };
+		CAF578642B1551C50053AFA6 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578632B1551C50053AFA6 /* CircularProfileImageView.swift */; };
+		CAF578662B1552840053AFA6 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578652B1552840053AFA6 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		CAF5785A2B1541150053AFA6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		CAF5785E2B15412D0053AFA6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CAF578602B1545A80053AFA6 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
+		CAF578632B1551C50053AFA6 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		CAF578652B1552840053AFA6 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +190,7 @@
 		CAD160632B14AB83000093F9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CAF578622B1551B20053AFA6 /* Components */,
 				CAF5785C2B15411B0053AFA6 /* Profile */,
 				CAF578582B1540E50053AFA6 /* ActivityView */,
 				CAF578542B1540C30053AFA6 /* ThreadCreation */,
@@ -318,6 +323,15 @@
 				CAF5785E2B15412D0053AFA6 /* ProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CAF578622B1551B20053AFA6 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CAF578632B1551C50053AFA6 /* CircularProfileImageView.swift */,
+				CAF578652B1552840053AFA6 /* UserCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -457,6 +471,8 @@
 				CAF5785F2B15412D0053AFA6 /* ProfileView.swift in Sources */,
 				CAD1606F2B14B937000093F9 /* ThreadsButtonModifier.swift in Sources */,
 				CAD160692B14AC94000093F9 /* LoginView.swift in Sources */,
+				CAF578642B1551C50053AFA6 /* CircularProfileImageView.swift in Sources */,
+				CAF578662B1552840053AFA6 /* UserCell.swift in Sources */,
 				CAD160382B14AB41000093F9 /* ContentView.swift in Sources */,
 				CAF578612B1545A80053AFA6 /* ThreadCell.swift in Sources */,
 				CAD1606D2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift in Sources */,

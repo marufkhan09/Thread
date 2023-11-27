@@ -12,7 +12,7 @@ struct ThreadCell: View {
         VStack {
             HStack(alignment:.top,spacing: 12,
                    content: {
-                Image("profile_image").resizable().scaledToFill().frame(width: 40,height: 40).clipShape(Circle(), style: FillStyle())
+                CircularProfileImageView()
                 //
                 VStack(alignment: .leading,spacing: 12,
                        content: {
