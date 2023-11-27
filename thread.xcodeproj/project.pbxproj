@@ -14,6 +14,16 @@
 		CAD160472B14AB42000093F9 /* threadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD160462B14AB42000093F9 /* threadTests.swift */; };
 		CAD160512B14AB42000093F9 /* threadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD160502B14AB42000093F9 /* threadUITests.swift */; };
 		CAD160532B14AB42000093F9 /* threadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD160522B14AB42000093F9 /* threadUITestsLaunchTests.swift */; };
+		CAD160692B14AC94000093F9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD160682B14AC94000093F9 /* LoginView.swift */; };
+		CAD1606B2B14B3AF000093F9 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1606A2B14B3AF000093F9 /* RegistrationView.swift */; };
+		CAD1606D2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1606C2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift */; };
+		CAD1606F2B14B937000093F9 /* ThreadsButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD1606E2B14B936000093F9 /* ThreadsButtonModifier.swift */; };
+		CAF5784B2B15396E0053AFA6 /* ThreadsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5784A2B15396E0053AFA6 /* ThreadsTabView.swift */; };
+		CAF5784E2B1540290053AFA6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5784D2B1540290053AFA6 /* FeedView.swift */; };
+		CAF578532B1540B30053AFA6 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578522B1540B30053AFA6 /* ExploreView.swift */; };
+		CAF578572B1540DE0053AFA6 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578562B1540DE0053AFA6 /* CreateThreadView.swift */; };
+		CAF5785B2B1541150053AFA6 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5785A2B1541150053AFA6 /* ActivityView.swift */; };
+		CAF5785F2B15412D0053AFA6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5785E2B15412D0053AFA6 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		CAD1604C2B14AB42000093F9 /* threadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = threadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD160502B14AB42000093F9 /* threadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threadUITests.swift; sourceTree = "<group>"; };
 		CAD160522B14AB42000093F9 /* threadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAD160682B14AC94000093F9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CAD1606A2B14B3AF000093F9 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		CAD1606C2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
+		CAD1606E2B14B936000093F9 /* ThreadsButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsButtonModifier.swift; sourceTree = "<group>"; };
+		CAF5784A2B15396E0053AFA6 /* ThreadsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTabView.swift; sourceTree = "<group>"; };
+		CAF5784D2B1540290053AFA6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CAF578522B1540B30053AFA6 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		CAF578562B1540DE0053AFA6 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
+		CAF5785A2B1541150053AFA6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		CAF5785E2B15412D0053AFA6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,12 @@
 		CAD160342B14AB41000093F9 /* thread */ = {
 			isa = PBXGroup;
 			children = (
-				CAD160352B14AB41000093F9 /* threadApp.swift */,
-				CAD160372B14AB41000093F9 /* ContentView.swift */,
+				CAD160642B14AB87000093F9 /* App */,
+				CAD160632B14AB83000093F9 /* Core */,
+				CAD160622B14AB7F000093F9 /* Extensions */,
+				CAD160612B14AB7C000093F9 /* Model */,
+				CAD160602B14AB79000093F9 /* Services */,
+				CAD1605F2B14AB6E000093F9 /* Utils */,
 				CAD160392B14AB42000093F9 /* Assets.xcassets */,
 				CAD1603B2B14AB42000093F9 /* Preview Content */,
 			);
@@ -125,6 +149,172 @@
 				CAD160522B14AB42000093F9 /* threadUITestsLaunchTests.swift */,
 			);
 			path = threadUITests;
+			sourceTree = "<group>";
+		};
+		CAD1605F2B14AB6E000093F9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CAD1606C2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift */,
+				CAD1606E2B14B936000093F9 /* ThreadsButtonModifier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CAD160602B14AB79000093F9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CAD160612B14AB7C000093F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAD160622B14AB7F000093F9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CAD160632B14AB83000093F9 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5785C2B15411B0053AFA6 /* Profile */,
+				CAF578582B1540E50053AFA6 /* ActivityView */,
+				CAF578542B1540C30053AFA6 /* ThreadCreation */,
+				CAD160662B14ABFD000093F9 /* Authentication */,
+				CAF578502B1540970053AFA6 /* Explore */,
+				CAF5784C2B15400F0053AFA6 /* Feed */,
+				CAD160652B14ABF9000093F9 /* Root */,
+				CAF578492B15370E0053AFA6 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CAD160642B14AB87000093F9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CAD160352B14AB41000093F9 /* threadApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CAD160652B14ABF9000093F9 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CAD160372B14AB41000093F9 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CAD160662B14ABFD000093F9 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CAD160672B14AC7B000093F9 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CAD160672B14AC7B000093F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAD160682B14AC94000093F9 /* LoginView.swift */,
+				CAD1606A2B14B3AF000093F9 /* RegistrationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAF578492B15370E0053AFA6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5784A2B15396E0053AFA6 /* ThreadsTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CAF5784C2B15400F0053AFA6 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5784F2B1540360053AFA6 /* Views */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		CAF5784F2B1540360053AFA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5784D2B1540290053AFA6 /* FeedView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAF578502B1540970053AFA6 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				CAF578512B1540A90053AFA6 /* View */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		CAF578512B1540A90053AFA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAF578522B1540B30053AFA6 /* ExploreView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAF578542B1540C30053AFA6 /* ThreadCreation */ = {
+			isa = PBXGroup;
+			children = (
+				CAF578552B1540D00053AFA6 /* View */,
+			);
+			path = ThreadCreation;
+			sourceTree = "<group>";
+		};
+		CAF578552B1540D00053AFA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAF578562B1540DE0053AFA6 /* CreateThreadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAF578582B1540E50053AFA6 /* ActivityView */ = {
+			isa = PBXGroup;
+			children = (
+				CAF578592B1541090053AFA6 /* View */,
+			);
+			path = ActivityView;
+			sourceTree = "<group>";
+		};
+		CAF578592B1541090053AFA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5785A2B1541150053AFA6 /* ActivityView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAF5785C2B15411B0053AFA6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5785D2B1541230053AFA6 /* View */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CAF5785D2B1541230053AFA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAF5785E2B15412D0053AFA6 /* ProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +447,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF5785B2B1541150053AFA6 /* ActivityView.swift in Sources */,
+				CAF578572B1540DE0053AFA6 /* CreateThreadView.swift in Sources */,
+				CAF5784E2B1540290053AFA6 /* FeedView.swift in Sources */,
+				CAF578532B1540B30053AFA6 /* ExploreView.swift in Sources */,
+				CAF5785F2B15412D0053AFA6 /* ProfileView.swift in Sources */,
+				CAD1606F2B14B937000093F9 /* ThreadsButtonModifier.swift in Sources */,
+				CAD160692B14AC94000093F9 /* LoginView.swift in Sources */,
 				CAD160382B14AB41000093F9 /* ContentView.swift in Sources */,
+				CAD1606D2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift in Sources */,
+				CAF5784B2B15396E0053AFA6 /* ThreadsTabView.swift in Sources */,
 				CAD160362B14AB41000093F9 /* threadApp.swift in Sources */,
+				CAD1606B2B14B3AF000093F9 /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
