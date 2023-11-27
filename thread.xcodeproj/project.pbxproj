@@ -24,6 +24,7 @@
 		CAF578572B1540DE0053AFA6 /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578562B1540DE0053AFA6 /* CreateThreadView.swift */; };
 		CAF5785B2B1541150053AFA6 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5785A2B1541150053AFA6 /* ActivityView.swift */; };
 		CAF5785F2B15412D0053AFA6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF5785E2B15412D0053AFA6 /* ProfileView.swift */; };
+		CAF578612B1545A80053AFA6 /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF578602B1545A80053AFA6 /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		CAF578562B1540DE0053AFA6 /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		CAF5785A2B1541150053AFA6 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		CAF5785E2B15412D0053AFA6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CAF578602B1545A80053AFA6 /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF5784D2B1540290053AFA6 /* FeedView.swift */,
+				CAF578602B1545A80053AFA6 /* ThreadCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				CAD1606F2B14B937000093F9 /* ThreadsButtonModifier.swift in Sources */,
 				CAD160692B14AC94000093F9 /* LoginView.swift in Sources */,
 				CAD160382B14AB41000093F9 /* ContentView.swift in Sources */,
+				CAF578612B1545A80053AFA6 /* ThreadCell.swift in Sources */,
 				CAD1606D2B14B7E5000093F9 /* ThreadsTextFieldModifier.swift in Sources */,
 				CAF5784B2B15396E0053AFA6 /* ThreadsTabView.swift in Sources */,
 				CAD160362B14AB41000093F9 /* threadApp.swift in Sources */,
