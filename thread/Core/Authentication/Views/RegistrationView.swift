@@ -8,10 +8,8 @@
 import SwiftUI
 
 struct RegistrationView: View {
-    @State private var email = ""
-    @State private var password = ""
-    @State private var fullname = ""
-    @State private var username = ""
+    @StateObject var viewModel = RegistrationViewModel()
+
     @Environment (\.dismiss) var dismiss
     var body: some View {
         Spacer()
@@ -20,22 +18,26 @@ struct RegistrationView: View {
         })
         VStack{
             //textfields
-            TextField("Enter your email", text: $email).modifier(ThreadsTextFieldModifier())
-            SecureField("Enter your passwod", text: $password).modifier(ThreadsTextFieldModifier())
-            TextField("Enter your full name", text: $fullname).modifier(ThreadsTextFieldModifier())
-            TextField("Enter your username", text: $username).modifier(ThreadsTextFieldModifier())
+            TextField("Enter your email", text: $viewModel.email).modifier(ThreadsTextFieldModifier())
+            SecureField("Enter your passwod", text: $viewModel.password).modifier(ThreadsTextFieldModifier())
+            TextField("Enter your full name", text: $viewModel.fullname).modifier(ThreadsTextFieldModifier())
+            TextField("Enter your username", text: $viewModel.username).modifier(ThreadsTextFieldModifier())
             
         }
         //sign up button
         
         Button(action: {
-            dismiss()
+            Task {
+                try await viewModel.createUser()
+            }
         }, label: {
             Text("Sign Up").modifier(ThreadsButtonModifier())
         }).padding(.vertical)
         Spacer()
         Divider()
-        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+        Button(action: {
+            dismiss()
+        }, label: {
             HStack(spacing:4,
                 content: {
                 Text("Don't have an account?")
