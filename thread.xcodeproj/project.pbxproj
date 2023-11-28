@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CA5252F82B161B66000498B5 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */; };
+		CA5252FC2B164023000498B5 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5252FB2B164023000498B5 /* EditProfileView.swift */; };
 		CAD160362B14AB41000093F9 /* threadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD160352B14AB41000093F9 /* threadApp.swift */; };
 		CAD160382B14AB41000093F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD160372B14AB41000093F9 /* ContentView.swift */; };
 		CAD1603A2B14AB42000093F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD160392B14AB42000093F9 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
+		CA5252FB2B164023000498B5 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		CAD160322B14AB41000093F9 /* thread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD160352B14AB41000093F9 /* threadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threadApp.swift; sourceTree = "<group>"; };
 		CAD160372B14AB41000093F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,22 @@
 				CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CA5252F92B164009000498B5 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				CA5252FA2B164012000498B5 /* View */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		CA5252FA2B164012000498B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA5252FB2B164023000498B5 /* EditProfileView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		CAD160292B14AB41000093F9 = {
@@ -322,6 +340,7 @@
 		CAF5785C2B15411B0053AFA6 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CA5252F92B164009000498B5 /* EditProfile */,
 				CA5252F62B161B53000498B5 /* Model */,
 				CAF5785D2B1541230053AFA6 /* View */,
 			);
@@ -476,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAF5785B2B1541150053AFA6 /* ActivityView.swift in Sources */,
+				CA5252FC2B164023000498B5 /* EditProfileView.swift in Sources */,
 				CAF578572B1540DE0053AFA6 /* CreateThreadView.swift in Sources */,
 				CAF5784E2B1540290053AFA6 /* FeedView.swift in Sources */,
 				CA5252F82B161B66000498B5 /* ProfileThreadFilter.swift in Sources */,
