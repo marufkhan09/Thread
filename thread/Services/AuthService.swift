@@ -6,16 +6,20 @@
 //
 
 import Foundation
-import Firebase
+import FirebaseAuth
 
 
 class AuthService {
-    
+    @Published var userSession: FirebaseAuth.User?
     static let shared = AuthService()
+    
+    init(){
+        self.userSession = Auth.auth().currentUser
+    }
     
     @MainActor
     func login(withEmail email : String,password : String) async throws {
-      
+        
     }
     
     @MainActor
@@ -26,5 +30,10 @@ class AuthService {
         } catch {
             print("Failed to create user with error::\(error.localizedDescription)")
         }
+    }
+    
+    func signOut(){
+        try? Auth.auth().signOut() //this signs out on backend
+        self.userSession = nil //this removes session locally and updates routing
     }
 }

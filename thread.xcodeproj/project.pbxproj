@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA5252F82B161B66000498B5 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */; };
 		CA5252FC2B164023000498B5 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5252FB2B164023000498B5 /* EditProfileView.swift */; };
+		CA688C812B18A02800B5300C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA688C802B18A02800B5300C /* ContentViewModel.swift */; };
 		CAAA10632B166F4300F17849 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAAA10622B166F4300F17849 /* GoogleService-Info.plist */; };
 		CAAA10662B16708A00F17849 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CAAA10652B16708A00F17849 /* FirebaseAuth */; };
 		CAAA10682B16708A00F17849 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CAAA10672B16708A00F17849 /* FirebaseFirestore */; };
@@ -59,6 +60,7 @@
 /* Begin PBXFileReference section */
 		CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		CA5252FB2B164023000498B5 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		CA688C802B18A02800B5300C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		CAAA10622B166F4300F17849 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAAA10702B1674E800F17849 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
 		CAAA10722B16766200F17849 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
@@ -139,6 +141,21 @@
 				CA5252FB2B164023000498B5 /* EditProfileView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		CA688C7E2B18A00700B5300C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CA688C7F2B18A00C00B5300C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA688C802B18A02800B5300C /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		CAAA106F2B1674C800F17849 /* ViewModel */ = {
@@ -268,6 +285,8 @@
 		CAD160652B14ABF9000093F9 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				CA688C7F2B18A00C00B5300C /* ViewModel */,
+				CA688C7E2B18A00700B5300C /* View */,
 				CAD160372B14AB41000093F9 /* ContentView.swift */,
 			);
 			path = Root;
@@ -536,6 +555,7 @@
 				CAAA10712B1674E800F17849 /* RegistrationViewModel.swift in Sources */,
 				CA5252FC2B164023000498B5 /* EditProfileView.swift in Sources */,
 				CAF578572B1540DE0053AFA6 /* CreateThreadView.swift in Sources */,
+				CA688C812B18A02800B5300C /* ContentViewModel.swift in Sources */,
 				CAF5784E2B1540290053AFA6 /* FeedView.swift in Sources */,
 				CA5252F82B161B66000498B5 /* ProfileThreadFilter.swift in Sources */,
 				CAAA10732B16766200F17849 /* AuthService.swift in Sources */,
