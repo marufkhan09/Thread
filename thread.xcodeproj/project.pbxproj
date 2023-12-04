@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA275F5D2B1C93EA00E81515 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA275F5C2B1C93EA00E81515 /* LoginViewModel.swift */; };
+		CA275F5F2B1CA5E200E81515 /* CustomLoadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA275F5E2B1CA5E200E81515 /* CustomLoadingButton.swift */; };
 		CA5252F82B161B66000498B5 /* ProfileThreadFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */; };
 		CA5252FC2B164023000498B5 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5252FB2B164023000498B5 /* EditProfileView.swift */; };
 		CA688C812B18A02800B5300C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA688C802B18A02800B5300C /* ContentViewModel.swift */; };
@@ -58,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA275F5C2B1C93EA00E81515 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		CA275F5E2B1CA5E200E81515 /* CustomLoadingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLoadingButton.swift; sourceTree = "<group>"; };
 		CA5252F72B161B66000498B5 /* ProfileThreadFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileThreadFilter.swift; sourceTree = "<group>"; };
 		CA5252FB2B164023000498B5 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
 		CA688C802B18A02800B5300C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
@@ -161,6 +165,7 @@
 		CAAA106F2B1674C800F17849 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				CA275F5C2B1C93EA00E81515 /* LoginViewModel.swift */,
 				CAAA10702B1674E800F17849 /* RegistrationViewModel.swift */,
 			);
 			path = ViewModel;
@@ -406,6 +411,7 @@
 			children = (
 				CAF578632B1551C50053AFA6 /* CircularProfileImageView.swift */,
 				CAF578652B1552840053AFA6 /* UserCell.swift */,
+				CA275F5E2B1CA5E200E81515 /* CustomLoadingButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -562,6 +568,7 @@
 				CAF578532B1540B30053AFA6 /* ExploreView.swift in Sources */,
 				CAF5785F2B15412D0053AFA6 /* ProfileView.swift in Sources */,
 				CAD1606F2B14B937000093F9 /* ThreadsButtonModifier.swift in Sources */,
+				CA275F5F2B1CA5E200E81515 /* CustomLoadingButton.swift in Sources */,
 				CAD160692B14AC94000093F9 /* LoginView.swift in Sources */,
 				CAF578642B1551C50053AFA6 /* CircularProfileImageView.swift in Sources */,
 				CAF578662B1552840053AFA6 /* UserCell.swift in Sources */,
@@ -571,6 +578,7 @@
 				CAF5784B2B15396E0053AFA6 /* ThreadsTabView.swift in Sources */,
 				CAD160362B14AB41000093F9 /* threadApp.swift in Sources */,
 				CAD1606B2B14B3AF000093F9 /* RegistrationView.swift in Sources */,
+				CA275F5D2B1C93EA00E81515 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
