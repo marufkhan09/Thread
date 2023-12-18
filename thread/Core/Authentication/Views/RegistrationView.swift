@@ -21,18 +21,15 @@ struct RegistrationView: View {
             TextField("Enter your email", text: $viewModel.email).modifier(ThreadsTextFieldModifier())
             SecureField("Enter your passwod", text: $viewModel.password).modifier(ThreadsTextFieldModifier())
             TextField("Enter your full name", text: $viewModel.fullname).modifier(ThreadsTextFieldModifier())
-            TextField("Enter your username", text: $viewModel.username).modifier(ThreadsTextFieldModifier())
+            TextField("Enter your username", text: $viewModel.username).textInputAutocapitalization(.none).modifier(ThreadsTextFieldModifier())
             
         }
         //sign up button
         
-        Button(action: {
-            Task {
-                try await viewModel.createUser()
-            }
-        }, label: {
-            Text("Sign Up").modifier(ThreadsButtonModifier())
-        }).padding(.vertical)
+        CustomLoadingButton(action: {
+            viewModel.createUser()
+        }, buttonText: "Register", isLoading: viewModel.isLoading)
+       // .padding(.vertical)
         Spacer()
         Divider()
         Button(action: {

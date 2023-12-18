@@ -27,18 +27,6 @@ struct LoginView: View {
             } label: {
                 Text("Forgot Password").font(.footnote).fontWeight(.semibold).padding(.vertical).padding(.trailing,28).foregroundColor(.black).frame(maxWidth: .infinity,alignment: .trailing)
             }
-            
-//            Button(action: {
-//                viewModel.login()
-//            }) {
-//                if viewModel.isLoading {
-//                    ProgressView()
-//                        .progressViewStyle(CircularProgressViewStyle(tint: .white))
-//                        .foregroundStyle(.white).frame(width: 352,height: 44).background(.black).cornerRadius(8) // Adjust size as needed
-//                } else {
-//                    Text("Login").modifier(ThreadsButtonModifier())
-//                }
-//            }
             CustomLoadingButton(action: {
                 viewModel.login()
             }, buttonText: "Login", isLoading: viewModel.isLoading)
@@ -54,7 +42,7 @@ struct LoginView: View {
                         .fontWeight(.semibold)
                 })
                 .font(.footnote).foregroundColor(.black)
-            }.padding(.vertical,16)
+            }.padding(.vertical,16)  
             
         }
     }

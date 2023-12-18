@@ -24,7 +24,7 @@ struct EditProfileView: View {
                                    content: {
                                 Text("Name").fontWeight(.semibold)
                                 
-                                Text("Md Maruf Khan")
+                                Text("Md maruf khan")
                             })
                             Spacer()
                             //profile image
